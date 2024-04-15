@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
     /* Colors */
     --dark-gray: #444444;
-    --dark-blue: #154580;
-    --light-blue: #E5F1FF;
+    --dark-blue: #2A7AE4;
     --light-gray: #ECECEC;
-    --dark-white: #ECECEC;
+    --light-blue: #EAF2FD;
     --white: #FFFFFF;
 
     /*Transition*/
@@ -99,7 +99,7 @@ main{
 }
 /*----------------SECTION SECOND-----------------*/
 .section-second{
-    background-color: var(--light-blue-100);
+    background-color: var(--light-blue);
 }
 .section-second-info{
     display: flex;
@@ -108,7 +108,7 @@ main{
 }
 /*----------------SECTION THIRD-----------------*/
 .section-third{
-    background-color: var(--dark-gray);
+    background-color: var(--light-gray);
     padding: var(--padding-sm) var(--padding-xs);
 }
 .section-third h2, .section-third-hobbies h2{
@@ -129,7 +129,7 @@ main{
 }
 /*----------------SECTION FOURTH-----------------*/
 .section-fourth{
-    background-color: var(--light-blue-100);
+    background-color: var(--light-blue);
     padding: var(--padding-sm) 0;
 }
 .section-fourth h2{
@@ -157,7 +157,7 @@ main{
 }
 /*----------------SECTION FIFTH-----------------*/
 .section-fifth{
-    background-color: var(--dark-gray);
+    background-color: var(--light-gray);
     padding: var(--padding-xs);
 }
 .section-fifth-list{
@@ -185,24 +185,24 @@ main{
 }
 .project-btns button{
     padding: var(--padding-xs);
-    border: 1px solid var(--dark-blue-200);
+    border: 1px solid var(--dark-blue);
     background-color: var(--white);
     color: var(--dark-blue-200);
 }
 .project-btns button:nth-child(2){
     color: var(--white);
-    background-color: var(--dark-blue-200);
+    background-color: var(--dark-blue);
 }
 /*----------------SECTION SIXTH-----------------*/
 .section-sixth{
-    background-color: var(--light-blue-100);
+    background-color: var(--light-blue);
     padding-bottom: var(--padding-sm);
 }
 .section-sixth-info h3{
     padding: var(--padding-xs) 0;
 }
 .section-sixth-info p{
-    line-height: 15px;
+    line-height: 20px;
     font-size: var(--text-size-sm);
 }
 .section-sixth-form{
@@ -213,7 +213,7 @@ main{
     padding: var(--padding-xs);
     outline: none;
     border: none;
-    border-bottom: 2px solid var(--dark-blue-200);
+    border-bottom: 2px solid var(--dark-blue);
     margin: var(--margin-xs) 0;
     border-radius: 5px;
 }
@@ -225,7 +225,7 @@ textarea{
 }
 .section-sixth-form button{
     padding: var(--padding-xs) var(--padding-sm);
-    background-color: var(--dark-blue-200);
+    background-color: var(--dark-blue);
     color: var(--white);
     border: none;
 }
